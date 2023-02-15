@@ -9,11 +9,15 @@ h1 {
 
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,4 +52,33 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: justify;
+}
+
+.experience-iteam {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+}
+
+#data-entry {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
